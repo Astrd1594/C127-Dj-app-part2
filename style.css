@@ -1,0 +1,70 @@
+body{
+    color: white
+}
+.modal-content{
+    background: rgb(49, 22, 75);
+    background: linear-gradient(0deg, rgb(51, 26, 92) 0%, rgb(42, 22, 75) 100%);
+}
+hr{
+    background-color: black !important;
+}
+h1{
+    font-family: 'Dela Gothic One', cursive;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Paytone One', sans-serif;
+    font-size: 52px;
+}
+p{
+    font-family: 'Lato', sans-serif;
+}
+#heading{
+    float: left;
+    background-color: rgb(22, 23, 75);
+    color: white;
+    padding-bottom: 25px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 10px;
+    box-shadow: 5px, 5px, 5px, 5px, 0px, black;
+    background: rgb(22,23,75);
+    background: linear-gradient(0deg, rgb(26, 27, 90) 0%, rgba(22,23,75,1) 100%);
+}
+a{
+    color: rgb(66, 138, 221);
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+}
+a:hover{
+    cursor: pointer;
+    text-decoration: none;
+    color: rgb(43, 115, 197);
+    transform: scale(1.1);
+}
+#instructionsdismiss{
+    font-weight: bolder !important;
+    font-size: 20px;
+}
+#playstopsection{
+    color: white;
+    bottom: 0;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+    background-color: #00000000;
+    font-size: 48px;
+}
+.button{
+    background: rgba(26, 27, 90, 0);
+    border-width: 0px;
+}
+.button:hover{
+    background-color: rgb(16, 17, 58);
+}
+.button:active{
+    background-color: rgba(99, 149, 206, 0.534);
+}
+canvas{
+    box-shadow: 5px 5px 10px black;
+}
+.disk1{
+    left:0 !important;
+    bottom: 0 !important;
+}
